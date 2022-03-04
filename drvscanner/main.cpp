@@ -54,7 +54,7 @@ int main(int argc, const char** argv)
         targetImportsFile.open(argv[2], std::ios::in);
         if(!targetImportsFile.is_open())
         {
-            std::cout << "Could not find target_imports.txt." << std::endl;
+            std::cout << "Could not open " << argv[2] << std::endl;
             return 0;
         }
 
