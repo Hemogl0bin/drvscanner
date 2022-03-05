@@ -12,7 +12,7 @@
 
 namespace fs = std::filesystem;
 
-std::vector<std::string> targetImports = { "MmMapIoSpace", "MmGetPhysicalAddress", "MmMapLockedPagesSpecifyCache", "MmAllocatePagesForMdlEx" };
+std::vector<std::string> targetImports = { "MmMapIoSpace", "MmGetPhysicalAddress", "MmMapLockedPagesSpecifyCache", "MmAllocatePagesForMdl", "MmAllocatePagesForMdlEx" };
 
 class DriverInfo
 {

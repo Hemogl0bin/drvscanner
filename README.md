@@ -6,6 +6,7 @@ By default the program will search for the following imports:
 * MmMapIoSpace
 * MmGetPhysicalAddress
 * MmMapLockedPagesSpecifyCache
+* MmAllocatePagesForMdl
 * MmAllocatePagesForMdlEx
 
 But this can be changed by adding a path to a txt file containing your desired imports separated by a newline when running the program. For example:
